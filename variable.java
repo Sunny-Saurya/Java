@@ -7,4 +7,7 @@ public class variable {
     }
 }
 
-// ln is use for printing output to the next line
+// ln ->  is use for printing output to the next line
+
+// \n -> is use for printing output to the next line
+
