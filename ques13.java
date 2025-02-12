@@ -1,3 +1,4 @@
+// Create a BankAccount class with a private variable balance. Implement getter and setter methods to access and update the balance.
 import java.util.*;
 
 class Student{
