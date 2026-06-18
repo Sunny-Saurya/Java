@@ -55,5 +55,41 @@ public class CollectionsDemo {
         for(int x : set) {
             System.out.println(x);
         }
+
+
+        // Queue
+        
+        Queue<Integer> q = new LinkedList<>();
+
+        q.offer(10);
+        q.offer(20);
+        q.offer(30);
+
+        for(int x : q){
+            System.out.println(x);
+        }
+
+        System.out.println(q.peek());
+
+        int rem = q.poll();
+        System.out.println(rem);
+
+        System.out.println(q.peek());
+
+
+        // Stack
+
+        Stack<Integer> st = new Stack<>();
+
+        st.push(101);
+        st.push(201);
+        st.push(301);
+        st.push(401);
+
+        while(!st.empty()){
+            System.out.println(st.peek());
+            st.pop();
+        }
+
     }
 }
