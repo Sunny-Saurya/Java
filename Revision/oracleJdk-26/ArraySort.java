@@ -29,6 +29,11 @@ public class ArraySort {
             System.out.print(arr[i] + " ");
         }
 
+        // searching eleement in an array
+
+        int target = 8;
+        int idx = java.util.Arrays.binarySearch(arr,target);
+        System.out.print("Found at index : " + idx);
         sc.close();
     }
 }
