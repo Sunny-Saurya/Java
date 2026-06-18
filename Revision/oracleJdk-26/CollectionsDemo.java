@@ -91,5 +91,18 @@ public class CollectionsDemo {
             st.pop();
         }
 
+
+        // Priority QUeue
+
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+
+        pq.offer(10);
+        pq.offer(5);
+        pq.offer(20);
+
+        for(int x : pq){
+            System.out.println(x);
+        }
+
     }
 }
