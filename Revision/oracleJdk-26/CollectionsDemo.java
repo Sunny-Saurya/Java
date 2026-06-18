@@ -1,34 +1,45 @@
 import java.util.*;
 
-public class CollectionsDemo{
-    public static void main(String[] args){
+public class CollectionsDemo {
+    public static void main(String[] args) {
 
-        // for dynamic array
-
+        // ArrayList
         ArrayList<Integer> arr = new ArrayList<>();
+
         arr.add(10);
         arr.add(20);
         arr.add(30);
         arr.add(40);
 
-        // get using index
-
-        // System.out.println(arr.get(0));
-        // update
+        // Update
         arr.set(1, 1001);
-        
-        for(int i = 0; i < arr.size(); i++){
-            System.out.println(arr.get(i));
-        }
-        
-        // remove
 
+        System.out.println("ArrayList:");
+
+        for(int i = 0; i < arr.size(); i++) {
+            System.out.print(arr.get(i) + " ");
+        }
+
+        System.out.println();
+
+        // Remove first element
         arr.remove(0);
 
+        System.out.println("After Remove:");
 
-        for(int x : list){
-            System.out.print(x+" ");
+        for(int x : arr) {
+            System.out.print(x + " ");
         }
-        
+
+        System.out.println();
+
+        // HashMap
+        HashMap<Integer, Integer> map = new HashMap<>();
+
+        map.put(1, 100);
+        map.put(2, 200);
+        map.put(3, 300);
+
+        System.out.println("\nValue at key 2: " + map.get(2));
     }
 }
