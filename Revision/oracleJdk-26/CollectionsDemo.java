@@ -41,5 +41,19 @@ public class CollectionsDemo {
         map.put(3, 300);
 
         System.out.println("\nValue at key 2: " + map.get(2));
+
+
+        //Hashset
+
+        HashSet<Integer> set = new HashSet<>();
+
+        set.add(10);
+        set.add(20);
+        set.add(30);
+        set.add(10);
+
+        for(int x : set) {
+            System.out.println(x);
+        }
     }
 }
